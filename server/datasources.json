@@ -1,0 +1,10 @@
+{
+  "firebird": {
+    "host": "localhost",
+    "port": 3050,
+    "database": "C:\\dype\\db\\GESTOR.DEV.Trunk.FDB",
+    "name": "firebird",
+    "charset": "UTF8",
+    "connector": "loopback-connector-firebird"
+  }
+}

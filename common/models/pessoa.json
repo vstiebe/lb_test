@@ -1,0 +1,28 @@
+{
+  "name": "PESSOA",
+  "plural": "pessoa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID_PESSOA": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "NOME": {
+      "type": "string",
+      "required": true
+    },
+    "TESTE": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
